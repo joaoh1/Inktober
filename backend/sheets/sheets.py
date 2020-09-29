@@ -55,7 +55,7 @@ class Sheets(commands.Cog):
             topic = f"Days {triday_days[0]}, {triday_days[1]} and **{triday_days[2]}**: {backend.day_themes.day_themes[now_day]}"
 
         if now_date.month == self.ink_month:
-            topic_str = topic_str = f"Currently accepting {topic}"
+            topic_str = f"Currently accepting {topic}"
         else:
             topic_str = "Not accepting any submissions at this time"
         await channel.edit(
